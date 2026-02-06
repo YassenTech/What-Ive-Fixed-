@@ -8,5 +8,7 @@ I found a dataset and decided to make a few improvements to it. If you are wonde
 4. Ensured only the first 5 digits are selected to prevent extra customer input errors.
 5. Applied the SUBSTRING function to retrieve a targeted section from a larger string of text.
 6. Formatted the location and gender text together to create a consistent shipping label design.
+7. i set missing numbers to 0 to avoid math errors and keep calculations running smoothly.
+8. Fixed When a customer has not made any purchases, the spending amount is displayed as $0 rather than NULL for improved clarity and consistency.
 
-will keep working on additional enhancements to improve the project.
+will keep working on additional enhancements to improve the project. 
