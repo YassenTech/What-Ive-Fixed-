@@ -10,5 +10,6 @@ I found a dataset and decided to make a few improvements to it. If you are wonde
 6. Formatted the location and gender text together to create a consistent shipping label design.
 7. i set missing numbers to 0 to avoid math errors and keep calculations running smoothly.
 8. Fixed When a customer has not made any purchases, the spending amount is displayed as $0 rather than NULL for improved clarity and consistency.
+9. Retrieves the first non-null value from the Discount_Pct column in the Customers table by checking the available entries and returning the first one that is not empty.
 
 will keep working on additional enhancements to improve the project. 
