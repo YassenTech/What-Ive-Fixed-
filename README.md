@@ -12,4 +12,17 @@ I found a dataset and decided to make a few improvements to it. If you are wonde
 8. Fixed When a customer has not made any purchases, the spending amount is displayed as $0 rather than NULL for improved clarity and consistency.
 9. Retrieves the first non-null value from the Discount_Pct column in the Customers table by checking the available entries and returning the first one that is not empty.
 
-will keep working on additional enhancements to improve the project. 
+
+In this update, I successfully implemented several SQL improvements to enhance stability, accuracy, and transaction safety
+
+10. Fixed divide-by-zero crashes by applying NULLIF() when working with quantity based calculations.
+11. Converted decimal values into whole numbers by using CAST() to ensure consistent numeric formatting (e.g., rounding average prices).
+12. Added support for real-time timestamping by utilizing GETDATE() for current date and time retrieval.
+13. Calculated how many days ago transactions occurred using DATEDIFF() with the Transaction_Date column.
+14. Improved database safety by practicing transaction control commands, including:
+15. ROLLBACK to undo unwanted changes
+16. COMMIT to permanently save valid updates
+
+These changes help ensure cleaner calculations, better date tracking, and more reliable database operations.
+
+ill work on another SQL Dataset In About Two Days
