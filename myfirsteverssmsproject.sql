@@ -1,4 +1,4 @@
-\\\/*so here i changed the datatype to float 
+/*so here i changed the datatype to float 
 --float basically stores a similar number for example
 --if you're height is 170.2 float adds an approximate number
 --which would likely be 170
